@@ -1,0 +1,7 @@
+Tests unitaires : exemple d'execution du code
+- fonction charger_source: Vérifier que la variable renvoyée est bien un dataframe
+- fonction charger_fichier: Vérifier que les variables renvoyées sont bien un dataframe, un sg.Layout (objet de la librairie PySimpleGUI), et 2 listes de str
+
+Renforcement de code :
+- fonction charger_source: Vérifier que df est un dataframe, vérifier que le séparateur est bien un caractère ou une chaine de caractère
+- fonction charger_fichier: Vérifier que chemin_fichier est un string, que c'est bien un fichier CSV, que le séparateur est bien un caractère ou une chaine de caractère
