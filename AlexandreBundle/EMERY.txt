@@ -1,0 +1,16 @@
+Positionnement sur la branch :
+- sudo git branch -m Alexandre
+
+- Deux fonctions proposés :
+
+1 - Fonction saisir de valeur pour generation .csv
+2 - Affichage propre du csv
+
+Identification des tests unitaires
+
+Saisie de valeur
+- Tester la bonne saisie des valeurs (avec un REGEX)
+- Tester valeur avec des valeurs saisies incorecte
+
+Renforcements de code
+- Affichage du csv
