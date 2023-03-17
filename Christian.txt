@@ -1,0 +1,19 @@
+Tests unitaires :
+
+Fonction1 :
+- Vérifier si la valeur saisi par l'utilisateur est bien un entier
+Fonction1(5) : Bon
+Fonction1("quatre") : Erreur
+
+Fonction2 :
+- Vérifier que l'élément traité est bien une chaine de caractères
+Fonction2("blablabla") : Bon
+Fonction2(7) : Erreur
+
+Renforcement de code :
+
+Faire une vérification des types de variables afin qu'ils soient conformes à leur utilisation
+Transtyper si necessaire
+
+assert type(x) == int
+assert type(x) == str
