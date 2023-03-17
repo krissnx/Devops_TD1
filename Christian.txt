@@ -12,8 +12,12 @@ Fonction2(7) : Erreur
 
 Renforcement de code :
 
+Fonction1
 Faire une vérification des types de variables afin qu'ils soient conformes à leur utilisation
-Transtyper si necessaire
-
 assert type(x) == int
+
+Fonction2
+Faire une vérification des types de variables afin qu'ils soient conformes à leur utilisation
 assert type(x) == str
+Vérifier la longueur du texte
+assert len(x) == 10
