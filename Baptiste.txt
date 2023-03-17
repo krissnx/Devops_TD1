@@ -7,7 +7,7 @@ Il faut que df_data soit au bon format (Dataframe).
 Il faut que target soit une colonne de df_data en format String. 
 
 Avec les bonnes conditions, la fonction doit retourner un dataframe. 
-Dans ce dataframe, toutes les valeurs différentes de la colonne target doivent être présente dans la même occurence. 
+Dans ce dataframe, toutes les valeurs différentes de la colonne target doivent être présente dans la même occurence.  
 
 2) Voici la signature de la fonction : def train(model, data_loader, epochs, batch_size) 
 Conditions : 

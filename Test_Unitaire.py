@@ -3,7 +3,7 @@ from Augmentation import augmentation
 import pandas as pd 
 
 #Fonction Augmentation 
-data = {'Name': ['Tom', 'Joseph', 'Krish', 'John'], 'Age': [20, 20, 19, 18]}  
+data = {'Name': ['Tom', 'Joseph', 'Krish', 'John'], 'Age': [20, 20, 19, 18]}   
 df = pd.DataFrame(data)  
 
 #Bonne utilisation 

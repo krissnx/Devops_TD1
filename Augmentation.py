@@ -9,7 +9,7 @@ def augmentation(df_data, target):
     max_valeur = max(liste_valeur)
     
     groupes = df_data.groupby(target)
-    dataframes = [groupe[1] for groupe in groupes]
+    dataframes = [groupe[1] for groupe in groupes] 
     
     df = pd.DataFrame() 
     

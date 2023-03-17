@@ -4,7 +4,7 @@ def train(model, data_loader, epochs=5, batch_size=8):
     optimizer_params = {'learning_rate': 0.05}
     
     trainer = gluon.Trainer(model.collect_params(), optimizer, optimizer_params)
-    loss = gluon.loss.SoftmaxCrossEntropyLoss(sparse_label=False)
+    loss = gluon.loss.SoftmaxCrossEntropyLoss(sparse_label=False) 
 
     acc = mx.metric.Accuracy()
     
