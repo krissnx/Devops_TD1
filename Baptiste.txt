@@ -1,0 +1,28 @@
+Identifiez les tests unitaires : 
+Les test unitaires vont se concentrer sur les paramètres dans ce cas. 
+
+1) Voici la signature de la fonction : def augmentation(df_data, target)
+Conditions : 
+Il faut que df_data soit au bon format (Dataframe). 
+Il faut que target soit une colonne de df_data en format String. 
+
+Avec les bonnes conditions, la fonction doit retourner un dataframe. 
+Dans ce dataframe, toutes les valeurs différentes de la colonne target doivent être présente dans la même occurence.  
+
+2) Voici la signature de la fonction : def train(model, data_loader, epochs, batch_size) 
+Conditions : 
+Il faut que model soit un objet Model de la librairie Gluon. 
+Il faut que data_loader soit un objet Dataloader de la librairie Gluon. 
+Il faut que epochs soit un entier. 
+Il faut que batch_size soit un entier. 
+
+Avec les bonnes conditions, la fonction doit retourner un Model de la librairie Gluon. 
+Le model est entrainé avec les données dans data_loader, sur le nombre d'epochs spécifié en utilisant la taille de batch spécifié. 
+
+
+Identifiez les renforcements de code : 
+Pour les renforcements de code, on va s'assurer que les conditions sont valides. 
+
+1) On vérifie le type de df_data, et on vérifie que target est bien présente en tant que colonne dedans. 
+
+2) On vérifie que : modèle, data_loader, epochs et batch_size soient tous du bon type. 
