@@ -1,0 +1,27 @@
+# Les test unitaires 
+
+---> les tests unitaires pour la fonction create_GUI(width, height) 
+- create_GUI(600, 400)
+- create_GUI("500", 0)
+- create_GUI(0, 0)
+- create_GUI("width", "height")
+- create_GUI(0, 300)
+- create_GUI(300, 0)
+
+---> Les tests unitaire pour la fonction calculate(a, b, op)
+- calculate(0, 0, "+")
+- calculate(5, 0, "/")
+- calculate(3.6, 9, +)
+- calculate(0, 5, *)
+- calculate("49", 6, -)
+
+# Les renforcements de code pouvant être effectués 
+
+---> pour la fonction create_GUI(width, height)
+- Verifier d'abord le type de width et heigh 
+- Donner une valeur par defaut pour width et height dans le cas où le type ces deux ne sont pas valide
+
+---> pour la fonction calculate(a, b, op)
+- Verifier le type de a et b 
+- Assurer que le b est différent de zéro dans le cas où op = division
+- Assurer que op existe et bien valide 
