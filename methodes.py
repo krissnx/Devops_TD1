@@ -3,6 +3,7 @@ import pandas as pd
 
 def charger_source(df, separateur):
     assert isinstance(df,pd.DataFrame()), "Erreur, un dataframe est requis"
+    assert isinstance(separateur, str), "Le séparateur doit etre un caractère"
     layout = [[sg.Text('Sélectionnez un fichier')],[sg.Input(key='_FILEBROWSE_'), sg.FileBrowse()],[sg.OK(), sg.Cancel('Annuler')]]
     file_window = sg.Window('File Browse', layout)
     while True:
@@ -19,6 +20,9 @@ def charger_source(df, separateur):
     return df_input
 
 def charger_fichier(chemin_fichier, separateur):
+    assert isinstance(chemin_fichier, str), "Le séparateur doit etre un caractère"
+    assert isinstance(separateur, str), "Le séparateur doit etre un caractère"
+    assert chemin_fichier.contains(".csv")
     df = pd.read_csv(chemin_fichier, separateur)
     df = df.fillna(" ")
     events = []
